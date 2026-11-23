@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "remagent": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "remagent[claude]",
+        "remagent-mcp",
+        "--db",
+        "${PLUGIN_DATA}/memory.db",
+        "--agent",
+        "antigravity"
+      ]
+    }
+  }
+}

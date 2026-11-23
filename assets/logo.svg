@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" fill="none" role="img" aria-label="RemAgent Local SQLite Sleep Memory">
+  <defs>
+    <linearGradient id="remBg" x1="24" y1="24" x2="232" y2="232" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#064E3B"/>
+      <stop offset="60%" stop-color="#065F46"/>
+      <stop offset="100%" stop-color="#042F2E"/>
+    </linearGradient>
+    <linearGradient id="diskGrad" x1="68" y1="116" x2="188" y2="196" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <linearGradient id="moonGrad" x1="126" y1="54" x2="184" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FDE68A"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Circular badge with ~10% margin -->
+  <circle cx="128" cy="128" r="104" fill="url(#remBg)" stroke="#34D399" stroke-opacity="0.5" stroke-width="4"/>
+
+  <!-- Local SQLite database cylinder (bottom/left focus) -->
+  <path d="M68 124 V178 C68 190 95 200 128 200 C161 200 188 190 188 178 V124" fill="#022C22" fill-opacity="0.65" stroke="url(#diskGrad)" stroke-width="6.5" stroke-linecap="round"/>
+  <ellipse cx="128" cy="124" rx="60" ry="18" fill="#065F46" stroke="url(#diskGrad)" stroke-width="6.5"/>
+  <path d="M68 152 C68 164 95 174 128 174 C161 174 188 164 188 152" stroke="#6EE7B7" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Crescent moon (REM sleep consolidation) -->
+  <path d="M156 58 C139 60 126 74 126 91 C126 109 141 124 159 124 C170 124 180 119 186 110 C179 112 171 111 164 106 C152 98 149 82 156 70 C158 66 158 61 156 58 Z" fill="url(#moonGrad)"/>
+
+  <!-- Small stars / Zzz sparkle accents -->
+  <circle cx="96" cy="84" r="5" fill="#FDE68A"/>
+  <circle cx="112" cy="68" r="3.5" fill="#A7F3D0"/>
+  <circle cx="82" cy="100" r="3" fill="#6EE7B7"/>
+</svg>

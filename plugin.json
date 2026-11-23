@@ -1,0 +1,25 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "remagent",
+  "displayName": "RemAgent",
+  "description": "Free, open-source local SQLite memory for Antigravity powered by RemAgent. Recall consolidated facts, log turns, and run local REM sleep cycles.",
+  "version": "1.0.0",
+  "author": "John Vincent Vallario",
+  "license": "MIT",
+  "keywords": [
+    "memory",
+    "agent memory",
+    "local memory",
+    "sqlite",
+    "open source",
+    "remagent"
+  ],
+  "homepage": "https://github.com/Johnv412/remagent",
+  "repository": "https://github.com/Johnv412/remagent-plugin",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Recall active facts and operational rules from my local RemAgent memory",
+    "Log today's key project decisions to my local RemAgent memory",
+    "Run a RemAgent dream cycle to consolidate recent session memory"
+  ]
+}
