@@ -2,6 +2,8 @@
 
 **Free and open source** local SQLite memory for Google Antigravity, powered by [RemAgent](https://github.com/Johnv412/remagent).
 
+Website, privacy policy and terms: https://dreamengine.dev
+
 This plugin is a lightweight "power cord": it contains no backend code of its own, connects to no hosted server of ours, and requires no plugin API key. It launches RemAgent's local MCP server directly on your machine via `uvx`.
 
 ---
